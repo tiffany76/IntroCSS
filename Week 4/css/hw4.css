@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of meyerweb.com "Reset CSS" style sheet. */
+
+body {
+	padding: 0px 5px;
+	margin: 20px;
+}
+
+header {
+	background-color: #F9EBEA;
+	background-image: url('../images/flywheel.jpg');
+	background-size: cover;
+	padding: 20px;
+}
+
+h1 {
+	color: #F2F3F4;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 250%;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	font-size: 120%;
+	font-family: Arial, sans-serif;
+	width: 70%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+nav a {
+	display: inline-block;
+	color: #2980B9;
+	background: rgba(242, 243, 244, .6);
+	text-decoration: none;
+	padding: 10px 30px;
+	margin: 0px 30px;
+	border-radius: 20px;
+}
+
+.active {
+	background: #F2F3F4;
+	border: solid 2px #2980B9;
+	font-weight: bold;
+}
+
+.left {	
+	width: 240px;
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+	background: #2980B9;
+	padding: 20px 0px;
+	margin: 0px 10px 0px 0px;
+	float: left;
+}
+
+aside a img{
+	width: 200px;
+	border: solid 2px #F2F3F4;
+	margin: 20px 20px;
+}
+
+.right {
+	clear: right;
+	height: 700px;
+	padding: 10px;
+	background: #D6EAF8;
+}
+
+h2 {
+	color: #2980B9;
+	text-transform: uppercase;
+	font-size: 150%;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	margin: 0px 0px 15px 0px;
+}
+
+p {
+	margin: 0px 0px 15px 0px;
+}
+
+table {
+	font-family: Arial, sans-serif;
+	font-size: 90%;
+	line-height: 40px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+tr {
+	opacity: .8;
+}
+
+tr:first-of-type {
+	opacity: 1;
+}
+
+tr:hover {
+	opacity: 1;
+}
+
+th {
+	background: -webkit-linear-gradient(270deg, #F2F3F4, #94C0DC);
+	background: -moz-linear-gradient(270deg, #F2F3F4, #94C0DC);
+	background: -o-linear-gradient(270deg, #F2F3F4, #94C0DC);
+	border-width: 2px;
+	border-style: solid;
+	border-color: #F2F3F4;
+	border-bottom-width: 4px;
+	border-bottom-color: rgba(41, 128, 185, 1);
+	border-radius: 8px 8px 0px 0px;
+	padding: 0px 10px 0px 10px;
+	color: #2980B9;
+	font-weight: bold;
+}
+
+th:first-child {
+	text-align: left;
+}
+
+td {
+	background: #E4EFF6;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #F2F3F4;
+	border-radius: 2px;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+	color: #15405C;
+	text-shadow: .5px .5px 1px #15405C;
+}
+
+td:first-child {
+	text-align: left;
+}
